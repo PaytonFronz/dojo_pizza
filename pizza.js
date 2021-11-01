@@ -45,27 +45,3 @@ function pizzaOven(crustType, sauceType, cheeses, toppings) {
 };
 var pizza4 = pizzaOven(["garlic crust", "hand tossed"], "light marinara", ["mozzarella"], ["no toppings"]);
 console.log(pizza4);
-
-// Bonus Challenge: Create a function called randomPizza that uses Math.random() to create a random pizza!
-// var pizza = [pizzaCrust, pizzaSauce, pizzaCheese, pizzaToppings];
-// var pizzaCrust = ["hand tossed", "deep dish", "thin crust", "garlic crust", "gluten free crust"];
-// var pizzaSauce = ["marinara", "no sauce", "pesto", "light sauce", "white sauce"];
-// var pizzaCheese = ["mozzarella", "parmesan", "feta", "cheddar", "pepperjack"];
-// var pizzaToppings = ["pepperoni", "olives", "onions", "peppers", "salami", "pineapple"]
-// function randomPizza() {
-//     var randomCrust = Math.random();
-//     var randCrust = Math.floor(randomCrust * pizzaCrust.length);
-//     var randomSauce = Math.random();
-//     var randSauce = Math.floor(randomSauce * pizzaSauce.length);
-//     var randomCheese = Math.random();
-//     var randCheeses = Math.floor(randomCheese * pizzaCheese.length);
-//     var randomToppings = Math.random();
-//     var randToppings = Math.floor(randomToppings * pizzaToppings.length);
-//     pizza.randCrust = crust;
-//     pizza.randSauce = sauce;
-//     pizza.randCheeses = cheeses;
-//     pizza.randToppings = toppings;
-//     return pizza[crust, sauce, cheeses, toppings];
-// }
-// var yourPizza = randomPizza();
-// console.log("your pizza is... " + yourPizza);
